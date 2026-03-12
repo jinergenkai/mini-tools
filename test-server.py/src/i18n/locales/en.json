@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "title": "Shaping Tomorrow with",
+    "today": "Today",
+    "description": "Where AI doesn't just watch, it acts, asks, and evolves with you. Join TMA in leading the intelligent future. At Agentic Vision, we believe AI should do more than just observe. Our intelligent systems take control, analyze outcomes, ask the right questions, and evolve with every action you take.",
+    "buttons": {
+      "getStarted": "Get Started",
+      "contactUs": "Contact Us"
+    }
+  },
+  "cameraTracking": {
+    "title": "AI Multi-camera Tracking",
+    "overview": {
+      "title": "Overview",
+      "description": "Our AI-powered multi-camera tracking system provides advanced surveillance and monitoring capabilities. Track objects and people across multiple camera feeds with real-time analytics and intelligent detection."
+    },
+    "features": {
+      "title": "Key Features",
+      "list": [
+        "Real-time object and person tracking across multiple cameras",
+        "Advanced AI-powered detection and recognition",
+        "Seamless camera feed synchronization",
+        "Intelligent event detection and alerts",
+        "Comprehensive analytics and reporting"
+      ]
+    },
+    "controls": {
+      "layout": {
+        "title": "Camera Layout",
+        "description": "Select the number of cameras to display",
+        "fullscreen": "Fullscreen"
+      },
+      "cameraList": {
+        "title": "Camera List",
+        "description": "Available camera feeds"
+      }
+    }
+  },
+  "header": {
+    "aiServices": "AI Services",
+    "contactUs": "Contact Us",
+    "language": "Language",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "services": {
+      "camera-tracking": "AI Multi-camera Tracking",
+      "vision-asking": "Vision Asking",
+      "data-analytics": "Data Analytics",
+      "voice-recognition": "Voice Recognition",
+      "video-processing": "Video Processing",
+      "predictive-modeling": "Predictive Modeling"
+    }
+  },
+  "services": {
+    "title": "Our AI Services",
+    "subtitle": "Discover how our AI-powered solutions can transform your business operations and create new opportunities for growth and innovation.",
+    "items": {
+      "camera-tracking": {
+        "title": "AI Multi-camera Tracking",
+        "description": "Advanced real-time tracking system for monitoring and analyzing multiple camera feeds simultaneously."
+      },
+      "vision-asking": {
+        "title": "Vision Asking",
+        "description": "A smart feature that lets you chat directly with AI to grasp everything happening on your camera screens."
+      },
+      "data-analytics": {
+        "title": "Data Analytics",
+        "description": "Extract meaningful insights from your data with our AI-powered analytics solutions."
+      },
+      "voice-recognition": {
+        "title": "Voice Recognition",
+        "description": "Convert speech to text with high accuracy across multiple languages and accents."
+      },
+      "video-processing": {
+        "title": "Video Processing",
+        "description": "Analyze, generate, and enhance video content with our powerful video AI capabilities."
+      },
+      "predictive-modeling": {
+        "title": "Predictive Modeling",
+        "description": "Forecast trends and outcomes using our advanced predictive algorithms and time-series analysis."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us, we'd love to hear from you",
+    "form": {
+      "title": "Send us a Message",
+      "description": "Fill out the form below and we'll get back to you as soon as possible.",
+      "name": "Your Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "about": "About TMA Solutions",
+      "address": "Our Address",
+      "contact": "Contact Information",
+      "visitWebsite": "Visit Our Website"
+    }
+  }
+}

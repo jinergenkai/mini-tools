@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "title": "Định Hình Tương Lai Cùng",
+    "today": "Hôm Nay",
+    "description": "Nơi AI không chỉ quan sát, mà còn hành động, đặt câu hỏi và phát triển cùng bạn. Hãy cùng TMA dẫn đầu tương lai thông minh. Tại Agentic Vision, chúng tôi tin rằng AI phải làm được nhiều hơn việc quan sát. Hệ thống thông minh của chúng tôi kiểm soát, phân tích kết quả, đặt ra những câu hỏi đúng đắn và phát triển với mọi hành động của bạn.",
+    "buttons": {
+      "getStarted": "Bắt Đầu",
+      "contactUs": "Liên Hệ"
+    }
+  },
+  "cameraTracking": {
+    "title": "AI Theo dõi đa camera",
+    "overview": {
+      "title": "Tổng quan",
+      "description": "Hệ thống theo dõi đa camera được hỗ trợ bởi AI của chúng tôi cung cấp khả năng giám sát và theo dõi tiên tiến. Theo dõi đối tượng và người qua nhiều luồng camera với phân tích thời gian thực và phát hiện thông minh."
+    },
+    "features": {
+      "title": "Tính năng chính",
+      "list": [
+        "Theo dõi đối tượng và người theo thời gian thực qua nhiều camera",
+        "Phát hiện và nhận dạng được hỗ trợ bởi AI tiên tiến",
+        "Đồng bộ hóa luồng camera liền mạch",
+        "Phát hiện sự kiện và cảnh báo thông minh",
+        "Phân tích và báo cáo toàn diện"
+      ]
+    },
+    "controls": {
+      "layout": {
+        "title": "Bố cục camera",
+        "description": "Chọn số lượng camera hiển thị",
+        "fullscreen": "Toàn màn hình"
+      },
+      "cameraList": {
+        "title": "Danh sách camera",
+        "description": "Luồng camera có sẵn"
+      }
+    }
+  },
+  "header": {
+    "aiServices": "Dịch vụ AI",
+    "contactUs": "Liên hệ",
+    "language": "Ngôn ngữ",
+    "lightMode": "Chế độ sáng",
+    "darkMode": "Chế độ tối",
+    "services": {
+      "camera-tracking": "AI Theo dõi đa camera",
+      "vision-asking": "Vision Asking",
+      "data-analytics": "Phân tích dữ liệu",
+      "voice-recognition": "Nhận dạng giọng nói",
+      "video-processing": "Xử lý video",
+      "predictive-modeling": "Mô hình dự đoán"
+    }
+  },
+  "services": {
+    "title": "Dịch vụ AI của chúng tôi",
+    "subtitle": "Khám phá cách giải pháp AI của chúng tôi có thể chuyển đổi hoạt động kinh doanh và tạo cơ hội mới cho sự phát triển và đổi mới.",
+    "items": {
+      "camera-tracking": {
+        "title": "AI Theo dõi đa camera",
+        "description": "Hệ thống theo dõi thời gian thực tiên tiến để giám sát và phân tích nhiều luồng camera cùng lúc."
+      },
+      "vision-asking": {
+        "title": "Vision Asking",
+        "description": "tính năng thông minh giúp bạn trò chuyện trực tiếp với AI để nắm bắt mọi thứ đang diễn ra trên màn hình camera."
+      },
+      "data-analytics": {
+        "title": "Phân tích dữ liệu",
+        "description": "Trích xuất thông tin ý nghĩa từ dữ liệu của bạn với giải pháp phân tích được hỗ trợ bởi AI."
+      },
+      "voice-recognition": {
+        "title": "Nhận dạng giọng nói",
+        "description": "Chuyển đổi giọng nói thành văn bản với độ chính xác cao trên nhiều ngôn ngữ và giọng điệu."
+      },
+      "video-processing": {
+        "title": "Xử lý video",
+        "description": "Phân tích, tạo và nâng cao nội dung video với khả năng AI video mạnh mẽ của chúng tôi."
+      },
+      "predictive-modeling": {
+        "title": "Mô hình dự đoán",
+        "description": "Dự báo xu hướng và kết quả bằng thuật toán dự đoán tiên tiến và phân tích chuỗi thời gian."
+      }
+    }
+  },
+  "contact": {
+    "title": "Liên Hệ",
+    "subtitle": "Hãy liên hệ với chúng tôi, chúng tôi rất mong được nghe từ bạn",
+    "form": {
+      "title": "Gửi Tin Nhắn",
+      "description": "Điền vào mẫu dưới đây và chúng tôi sẽ phản hồi sớm nhất có thể.",
+      "name": "Họ và Tên",
+      "email": "Địa Chỉ Email",
+      "subject": "Tiêu Đề",
+      "message": "Nội Dung",
+      "submit": "Gửi Tin Nhắn"
+    },
+    "info": {
+      "about": "Về TMA Solutions",
+      "address": "Địa Chỉ",
+      "contact": "Thông Tin Liên Hệ",
+      "visitWebsite": "Truy Cập Website"
+    }
+  }
+}
