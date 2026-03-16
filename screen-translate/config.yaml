@@ -1,0 +1,53 @@
+# ============================================
+# Screen Translate Tool - Configuration
+# ============================================
+
+# --- Hotkey ---
+# Phím trigger để bắt đầu chọn vùng (bấm 2 lần)
+# Lần 1: ghi nhận góc trên-trái (vị trí cursor)
+# Lần 2: ghi nhận góc dưới-phải → chụp & dịch
+hotkey: "left" # Phím mũi tên trái
+
+# --- OpenAI API ---
+openai:
+  api_key: "" # Thay bằng API key của bạn
+  model: "gpt-4o"
+  max_tokens: 2000
+
+# --- Prompt ---
+# Prompt gửi kèm text OCR cho LLM
+prompt: |
+  Đọc text từ ảnh và trả lời câu hỏi bằng tiếng Việt.
+  Chọn đáp án đúng trước sau đó Giải thích ngắn gọn, dễ hiểu.
+
+# --- Telegram Bot ---
+telegram:
+  enabled: true
+  bot_token: "" # Tạo bot từ @BotFather
+  chat_id: "" # Lấy từ @userinfobot hoặc @getmyid_bot
+
+# --- TTS (Text-to-Speech) ---
+tts:
+  enabled: true
+  voice: "vi-VN-HoaiMyNeural" # Giọng Việt Nam (edge-tts)
+  rate: "+0%" # Tốc độ đọc (-50% chậm, +50% nhanh)
+
+# --- Screenshot ---
+screenshot:
+  # Vùng mở rộng mặc định từ cursor (pixels)
+  # Dùng khi chế độ "expand" được bật
+  expand_width: 400
+  expand_height: 200
+
+  # Lưu screenshot tạm (debug)
+  save_debug: true
+  debug_path: "./debug_screenshots/"
+
+# --- OCR ---
+# "vision" = gửi ảnh thẳng lên GPT-4V (chính xác nhất)
+# "tesseract" = dùng Tesseract offline (miễn phí, nhanh hơn)
+ocr_method: "vision"
+
+# --- Misc ---
+# Âm thanh thông báo khi chụp xong
+notification_sound: true

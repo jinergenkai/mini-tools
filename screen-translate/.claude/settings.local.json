@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip index:*)",
+      "Bash(E:\\\\screen-translate\\\\venv\\\\Scripts\\\\pip.exe install:*)",
+      "Bash(cmd.exe /c \"E:\\\\screen-translate\\\\venv\\\\Scripts\\\\pip.exe install \\\\\"edge-tts>=7.2.7\\\\\"\")",
+      "Bash(cmd.exe /c \"E:\\\\screen-translate\\\\venv\\\\Scripts\\\\pip.exe install edge-tts --upgrade && E:\\\\screen-translate\\\\venv\\\\Scripts\\\\pip.exe show edge-tts\")",
+      "Bash(cmd.exe /c \"E:\\\\screen-translate\\\\venv\\\\Scripts\\\\pip.exe install edge-tts --upgrade\" 2>&1)",
+      "Bash(powershell.exe -Command \"& 'E:\\\\screen-translate\\\\venv\\\\Scripts\\\\pip.exe' install 'edge-tts' --upgrade; & 'E:\\\\screen-translate\\\\venv\\\\Scripts\\\\pip.exe' show edge-tts\")"
+    ]
+  }
+}

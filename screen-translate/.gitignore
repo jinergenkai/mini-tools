@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / Python build
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.whl
+*.pyc
+*.bin
+
+# Temporary files
+*.tmp
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.env
+.venv
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.bak
+*.orig
+*~
+__pycache__
+
+# Virtual environment
+venv/
+env/
+/site-packages/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints
