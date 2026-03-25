@@ -1,0 +1,36 @@
+FROM nvidia/cuda:11.8.0-runtime-ubuntu22.04
+
+# Install Python
+RUN apt-get update && apt-get install -y \
+    python3.10 \
+    python3-pip \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copy application
+COPY api.py .
+
+# Install Python packages
+RUN pip install --no-cache-dir \
+    fastapi \
+    uvicorn[standard] \
+    python-multipart \
+    transformers \
+    Pillow \
+    numpy \
+    einops \
+    timm
+
+# Install PyTorch with CUDA
+RUN pip install --no-cache-dir \
+    --index-url https://download.pytorch.org/whl/cu118 \
+    torch torchvision
+
+ENV DEVICE=cuda
+ENV PYTHONUNBUFFERED=1
+
+EXPOSE 11200
+
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "11200"]
